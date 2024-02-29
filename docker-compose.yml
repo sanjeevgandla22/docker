@@ -3,5 +3,5 @@ services:
   movies:
     image: sanjeevgandla22/movies:latest
     ports:
-      - 80:80
+      - 90:80
     replicas: 3
