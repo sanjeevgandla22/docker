@@ -1,0 +1,7 @@
+version: "3"
+services:
+  movies:
+    image: sanjeevgandla22/movies:latest
+    ports:
+      - 80:80
+    replicas: 3
